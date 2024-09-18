@@ -12,7 +12,7 @@ password = getpass.getpass(prompt='Enter your CVAT password: ')
 #password = r'PASSWORD'
 
 # Project ID
-project_id = 148669
+project_id = 123456
 
 # Function to fetch task metadata and filter by subset (e.g., 'train' or 'val')
 def fetch_task_images_by_subset(tasks, subset):
