@@ -12,7 +12,7 @@ password = getpass.getpass(prompt='Enter your CVAT password: ')
 #password = r'PASSWORD' # If you like to be lazy and live dangerously
 
 # Project ID
-project_id = 149228
+project_id = 123456
 
 # Function to fetch all labels, handling pagination
 def fetch_all_labels(labels_url, auth):
